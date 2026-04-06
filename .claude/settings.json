@@ -5,7 +5,13 @@
       "Bash(grep -rn 'href=\"#offres\"' *.html)",
       "Bash(grep -rn '\"price\": \"239\"' *.html)",
       "Bash(sed -i 's|<title>Google Bewertungen Kaufen - Google Bewertungen Kaufen</title>|<title>Google Bewertungen Kaufen Schweiz - Positive Bewertungen ab 99 CHF</title>|' index.html)",
-      "Bash(sed -i 's|<h1>Google Bewertungen Kaufen <br> Google Bewertungen Kaufen</h1>|<h1>Google Bewertungen Kaufen <br> Ihre Online-Reputation stärken</h1>|' index.html)"
+      "Bash(sed -i 's|<h1>Google Bewertungen Kaufen <br> Google Bewertungen Kaufen</h1>|<h1>Google Bewertungen Kaufen <br> Ihre Online-Reputation stärken</h1>|' index.html)",
+      "Bash(grep -l 'fuer \\\\|Aerzte\\\\|Anwaelte\\\\|Zahnaerzte\\\\|Koennen\\\\|koennen\\\\|haeufig\\\\|Haeufig\\\\|natuerlich\\\\|Qualitaet\\\\|Zuverlaessig\\\\|glaubwuerdig\\\\|Datenschutzerklaerung\\\\|Geschaeftspraktiken\\\\|erwaehnen' *.html)",
+      "Bash(grep -c 'lang=\"de-CH\"' *.html)",
+      "Bash(grep -rn '>Home<' *.html)",
+      "Bash(grep 'og:site_name' *.html)",
+      "Bash(grep -rn 'Datenschutzrichtlinie\\\\|Allgemeine Gesch' *.html)",
+      "Bash(grep -l 'Zuverlaessig\\\\|Glaubwuerdige\\\\|Qualitaet\\\\|Zahnaerzte\\\\|Anwaelte\\\\| fuer ' *.html)"
     ]
   }
 }
