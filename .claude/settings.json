@@ -11,7 +11,23 @@
       "Bash(grep -rn '>Home<' *.html)",
       "Bash(grep 'og:site_name' *.html)",
       "Bash(grep -rn 'Datenschutzrichtlinie\\\\|Allgemeine Gesch' *.html)",
-      "Bash(grep -l 'Zuverlaessig\\\\|Glaubwuerdige\\\\|Qualitaet\\\\|Zahnaerzte\\\\|Anwaelte\\\\| fuer ' *.html)"
+      "Bash(grep -l 'Zuverlaessig\\\\|Glaubwuerdige\\\\|Qualitaet\\\\|Zahnaerzte\\\\|Anwaelte\\\\| fuer ' *.html)",
+      "Bash(nslookup bewertungen-kaufen.ch)",
+      "Bash(dig bewertungen-kaufen.ch +short)",
+      "Bash(nslookup bewertungen-kaufen.ch 8.8.8.8)",
+      "Bash(curl -sI https://casperdev4.github.io/avis-google-suisse-de/ --max-time 10)",
+      "Bash(grep -rin 'taet\\\\b\\\\|aelt\\\\|aerzt\\\\|oert\\\\|uert\\\\|oehn\\\\|uehl\\\\|aeng\\\\|oeff\\\\|ueck\\\\|aehn\\\\|oerd\\\\|aeuss\\\\|aeum\\\\|Orthopae\\\\|aesthet' *.html)",
+      "Bash(grep -rin 'taet\\\\b\\\\|aerzt\\\\|aeuss\\\\|oeren\\\\|ueck\\\\|oeff\\\\|aeng\\\\|Orthopae\\\\|aesthet\\\\|oesun\\\\|Rueck\\\\|erklaer\\\\|Erklaer\\\\|Puenkt\\\\|fuegen\\\\|fuehls\\\\|Bevoelk\\\\|Atmospha\\\\|Quantita\\\\|Taetig\\\\|erwaeh\\\\|Erwaeh\\\\|Zuhoer\\\\|Serioesi\\\\|Groess\\\\|unabhaen' *.html)",
+      "Bash(grep -rn 'bestaetigen\\\\|kohaerente\\\\|kohaeren' *.html)",
+      "Bash(sed -i 's/Prioritaet/Priorität/g' zuverlaessige-google-bewertungen-kaufen.html)",
+      "Bash(grep -rin '[a-z]aet\\\\b\\\\|[a-z]oet\\\\b\\\\|Erklaer\\\\|erwaeh\\\\|Zuhoer\\\\|Rueckm\\\\|fuegen\\\\|einfuehl\\\\|Atmosph.*ae\\\\|Bevoelk\\\\|aeusser\\\\|Orthopae\\\\|aesthet\\\\|Serioesi\\\\|Prioritae\\\\|bestaeti\\\\|kohaere' *.html)",
+      "Bash(sed -i -e s/ausgekluegeltes/ausgeklügeltes/g -e s/Kohaerenz/Kohärenz/g echte-google-bewertungen-kaufen.html)",
+      "Bash(grep -rin 'kluegeltes\\\\|Kohaerenz\\\\|kohaerenz\\\\|ausgekluegel' *.html)",
+      "Bash(grep -rn '[a-z]ae[bcdfghjklmnpqrstvwxyz]' *.html)",
+      "Bash(grep -rL '🇨🇭' *.html)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Webpr\\Desktop\\E-Commerce_\\Google_8\\bewertungen-kaufen.ch"
     ]
   }
 }
