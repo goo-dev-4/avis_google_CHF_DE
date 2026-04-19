@@ -36,228 +36,233 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://kaufen-sie-goo-bewertungen.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Google Bewertungen Handwerker", "item": "https://kaufen-sie-goo-bewertungen.com/google-bewertungen-handwerker.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Bewertungen Kaufen",
-        "url": "https://kaufen-sie-goo-bewertungen.com",
-        "logo": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Unsere Dienstleistungen",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Google Bewertungen Kaufen Handwerker",
-                        "url": "https://kaufen-sie-goo-bewertungen.com/google-bewertungen-handwerker.html"
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Startseite",
+                        "item": "https://kaufen-sie-goo-bewertungen.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Google Bewertungen Handwerker",
+                        "item": "https://kaufen-sie-goo-bewertungen.com/google-bewertungen-handwerker.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Erwähnen die Bewertungen spezifische handwerkliche Fachgebiete?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, jede Bewertung wird auf Basis Ihrer handwerklichen Spezialisierung geschrieben. Ob Sie Maurer, Schreiner, Plattenleger oder Maler sind, die Erfahrungsberichte beschreiben Arbeiten, die zu Ihrem Fach und Handwerk passen."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Wie viele Bewertungen braucht ein Handwerker, um Vertrauen zu wecken?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Zwischen 25 und 50 Bewertungen reichen aus, um Ihre Glaubwürdigkeit aufzubauen. Die meisten lokalen Handwerker haben nur wenige Bewertungen, was Ihnen die Möglichkeit bietet, sich schnell in Ihrer Region abzuheben."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Können die Bewertungen die Qualität der Ausführung und Materialien erwähnen?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolut. Unsere Autoren verarbeiten Details über die Qualität Ihrer Ausführung, die Sorgfalt auf der Baustelle und die Materialwahl. Diese konkreten Elemente stärken die Glaubwürdigkeit jeder Bewertung."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Helfen Bewertungen einem Handwerker, mehr Offerten zu bekommen?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, ein gut bewertetes Google Profil generiert deutlich mehr Offertanfragen. Privatpersonen kontaktieren zuerst Handwerker, die eine hohe Bewertung und detailliertes Feedback zu ihren Arbeiten vorweisen."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Unsere Angebote Positive Bewertungen",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "25 Positive Bewertungen + 5 gratis",
-                    "description": "Paket mit 25 positiven Google Bewertungen mit Schweizer Konten, personalisierten Texten, lebenslanger Garantie und 24/7 Kundendienst.",
-                    "image": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "99",
-                        "priceCurrency": "CHF",
-                        "availability": "https://schema.org/InStock",
-                        "priceValidUntil": "2026-12-31",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CHF"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 12,
-                                    "maxValue": 30,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CH"
+                "@type": "Organization",
+                "name": "Bewertungen Kaufen",
+                "url": "https://kaufen-sie-goo-bewertungen.com",
+                "logo": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Unsere Dienstleistungen",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "google bewertungen kaufen handwerker",
+                                "url": "https://kaufen-sie-goo-bewertungen.com/google-bewertungen-handwerker.html"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CH",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Erwähnen die Bewertungen spezifische handwerkliche Fachgebiete?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ja, jede Bewertung wird auf Basis Ihrer handwerklichen Spezialisierung geschrieben. Ob Sie Maurer, Schreiner, Plattenleger oder Maler sind, die Erfahrungsberichte beschreiben Arbeiten, die zu Ihrem Fach und Handwerk passen."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Wie viele Bewertungen braucht ein Handwerker, um Vertrauen zu wecken?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Zwischen 25 und 50 Bewertungen reichen aus, um Ihre Glaubwürdigkeit aufzubauen. Die meisten lokalen Handwerker haben nur wenige Bewertungen, was Ihnen die Möglichkeit bietet, sich schnell in Ihrer Region abzuheben."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Können die Bewertungen die Qualität der Ausführung und Materialien erwähnen?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolut. Unsere Autoren verarbeiten Details über die Qualität Ihrer Ausführung, die Sorgfalt auf der Baustelle und die Materialwahl. Diese konkreten Elemente stärken die Glaubwürdigkeit jeder Bewertung."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Helfen Bewertungen einem Handwerker, mehr Offerten zu bekommen?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ja, ein gut bewertetes Google Profil generiert deutlich mehr Offertanfragen. Privatpersonen kontaktieren zuerst Handwerker, die eine hohe Bewertung und detailliertes Feedback zu ihren Arbeiten vorweisen."
                         }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "50 Positive Bewertungen + 10 gratis",
-                    "description": "Paket mit 50 positiven Google Bewertungen mit Schweizer Konten, personalisierten Texten, lebenslanger Garantie und 24/7 Kundendienst.",
-                    "image": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "169",
-                        "priceCurrency": "CHF",
-                        "availability": "https://schema.org/InStock",
-                        "priceValidUntil": "2026-12-31",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CHF"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "Unsere Angebote Positive Bewertungen",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Positive Bewertungen + 5 gratis",
+                            "description": "Paket mit 25 positiven Google Bewertungen mit Schweizer Konten, personalisierten Texten, lebenslanger Garantie und 24/7 Kundendienst.",
+                            "image": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "CHF",
+                                "availability": "https://schema.org/InStock",
+                                "priceValidUntil": "2026-12-31",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CHF"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CH"
+                                    }
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 25,
-                                    "maxValue": 60,
-                                    "unitCode": "DAY"
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CH",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                                 }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CH"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CH",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Positive Bewertungen + 10 gratis",
+                            "description": "Paket mit 50 positiven Google Bewertungen mit Schweizer Konten, personalisierten Texten, lebenslanger Garantie und 24/7 Kundendienst.",
+                            "image": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "CHF",
+                                "availability": "https://schema.org/InStock",
+                                "priceValidUntil": "2026-12-31",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CHF"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CH"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CH",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Positive Bewertungen + 20 gratis",
+                            "description": "Paket mit 100 positiven Google Bewertungen mit Schweizer Konten, personalisierten Texten, lebenslanger Garantie und 24/7 Kundendienst.",
+                            "image": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "CHF",
+                                "availability": "https://schema.org/InStock",
+                                "priceValidUntil": "2026-12-31",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CHF"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CH"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CH",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
                         }
                     }
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "100 Positive Bewertungen + 20 gratis",
-                    "description": "Paket mit 100 positiven Google Bewertungen mit Schweizer Konten, personalisierten Texten, lebenslanger Garantie und 24/7 Kundendienst.",
-                    "image": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "279",
-                        "priceCurrency": "CHF",
-                        "availability": "https://schema.org/InStock",
-                        "priceValidUntil": "2026-12-31",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CHF"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 50,
-                                    "maxValue": 120,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CH"
-                            }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CH",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                        }
-                    }
-                }
+                ]
             }
         ]
     }

@@ -37,228 +37,233 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://kaufen-sie-goo-bewertungen.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Google Bewertungen Hotel", "item": "https://kaufen-sie-goo-bewertungen.com/google-bewertungen-hotel.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Bewertungen Kaufen",
-        "url": "https://kaufen-sie-goo-bewertungen.com",
-        "logo": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Unsere Dienstleistungen",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Google Bewertungen Hotel kaufen",
-                        "url": "https://kaufen-sie-goo-bewertungen.com/google-bewertungen-hotel.html"
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Startseite",
+                        "item": "https://kaufen-sie-goo-bewertungen.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Google Bewertungen Hotel",
+                        "item": "https://kaufen-sie-goo-bewertungen.com/google-bewertungen-hotel.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Erw&auml;hnen die Google Bewertungen f&uuml;r Hotels die Zimmer und den Service?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, jede Bewertung wird massgeschneidert verfasst und erw&auml;hnt die Sauberkeit der Zimmer, die Qualit&auml;t des Empfangs, das Fr&uuml;hst&uuml;ck, die Lage und den allgemeinen Komfort Ihres Hauses."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Wie viele Google Bewertungen braucht ein Hotel, um Vertrauen zu erwecken?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ein Hotel ben&ouml;tigt mindestens 50 bis 100 Bewertungen, um glaubw&uuml;rdig zu wirken. Reisende vergleichen systematisch mehrere H&auml;user und bevorzugen diejenigen mit der gr&ouml;ssten Anzahl positiver Bewertungen."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Sind Google Bewertungen genauso wichtig wie Booking oder TripAdvisor?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolut. Google ist zur ersten Plattform geworden, die vor einer Buchung konsultiert wird. Viele Reisende &uuml;berpr&uuml;fen die Google-Bewertung, auch wenn sie &uuml;ber andere Plattformen buchen."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Kann man Google Bewertungen f&uuml;r mehrere Hotels kaufen?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, wir verwalten Bestellungen f&uuml;r mehrere Betriebe. Kontaktieren Sie uns nach Ihrer Bestellung per WhatsApp, um die verschiedenen Google-Profile anzugeben."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Unsere Angebote Positive Bewertungen",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "25 Positive Bewertungen + 5 gratis",
-                    "description": "Paket mit 25 positiven Google Bewertungen mit Schweizer Konten, personalisierten Texten, lebenslanger Garantie und Kundenservice rund um die Uhr.",
-                    "image": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "99",
-                        "priceCurrency": "CHF",
-                        "availability": "https://schema.org/InStock",
-                        "priceValidUntil": "2026-12-31",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CHF"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 12,
-                                    "maxValue": 30,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CH"
+                "@type": "Organization",
+                "name": "Bewertungen Kaufen",
+                "url": "https://kaufen-sie-goo-bewertungen.com",
+                "logo": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Unsere Dienstleistungen",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "google bewertungen hotel kaufen",
+                                "url": "https://kaufen-sie-goo-bewertungen.com/google-bewertungen-hotel.html"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CH",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Erw&auml;hnen die Google Bewertungen f&uuml;r Hotels die Zimmer und den Service?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ja, jede Bewertung wird massgeschneidert verfasst und erw&auml;hnt die Sauberkeit der Zimmer, die Qualit&auml;t des Empfangs, das Fr&uuml;hst&uuml;ck, die Lage und den allgemeinen Komfort Ihres Hauses."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Wie viele Google Bewertungen braucht ein Hotel, um Vertrauen zu erwecken?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ein Hotel ben&ouml;tigt mindestens 50 bis 100 Bewertungen, um glaubw&uuml;rdig zu wirken. Reisende vergleichen systematisch mehrere H&auml;user und bevorzugen diejenigen mit der gr&ouml;ssten Anzahl positiver Bewertungen."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Sind Google Bewertungen genauso wichtig wie Booking oder TripAdvisor?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolut. Google ist zur ersten Plattform geworden, die vor einer Buchung konsultiert wird. Viele Reisende &uuml;berpr&uuml;fen die Google-Bewertung, auch wenn sie &uuml;ber andere Plattformen buchen."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Kann man Google Bewertungen f&uuml;r mehrere Hotels kaufen?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ja, wir verwalten Bestellungen f&uuml;r mehrere Betriebe. Kontaktieren Sie uns nach Ihrer Bestellung per WhatsApp, um die verschiedenen Google-Profile anzugeben."
                         }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "50 Positive Bewertungen + 10 gratis",
-                    "description": "Paket mit 50 positiven Google Bewertungen mit Schweizer Konten, personalisierten Texten, lebenslanger Garantie und Kundenservice rund um die Uhr.",
-                    "image": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "169",
-                        "priceCurrency": "CHF",
-                        "availability": "https://schema.org/InStock",
-                        "priceValidUntil": "2026-12-31",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CHF"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "Unsere Angebote Positive Bewertungen",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Positive Bewertungen + 5 gratis",
+                            "description": "Paket mit 25 positiven Google Bewertungen mit Schweizer Konten, personalisierten Texten, lebenslanger Garantie und Kundenservice rund um die Uhr.",
+                            "image": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "CHF",
+                                "availability": "https://schema.org/InStock",
+                                "priceValidUntil": "2026-12-31",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CHF"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CH"
+                                    }
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 25,
-                                    "maxValue": 60,
-                                    "unitCode": "DAY"
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CH",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                                 }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CH"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CH",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Positive Bewertungen + 10 gratis",
+                            "description": "Paket mit 50 positiven Google Bewertungen mit Schweizer Konten, personalisierten Texten, lebenslanger Garantie und Kundenservice rund um die Uhr.",
+                            "image": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "CHF",
+                                "availability": "https://schema.org/InStock",
+                                "priceValidUntil": "2026-12-31",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CHF"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CH"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CH",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Positive Bewertungen + 20 gratis",
+                            "description": "Paket mit 100 positiven Google Bewertungen mit Schweizer Konten, personalisierten Texten, lebenslanger Garantie und Kundenservice rund um die Uhr.",
+                            "image": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "CHF",
+                                "availability": "https://schema.org/InStock",
+                                "priceValidUntil": "2026-12-31",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CHF"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CH"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CH",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
                         }
                     }
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "100 Positive Bewertungen + 20 gratis",
-                    "description": "Paket mit 100 positiven Google Bewertungen mit Schweizer Konten, personalisierten Texten, lebenslanger Garantie und Kundenservice rund um die Uhr.",
-                    "image": "https://kaufen-sie-goo-bewertungen.com/bewertungen-kaufen-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "279",
-                        "priceCurrency": "CHF",
-                        "availability": "https://schema.org/InStock",
-                        "priceValidUntil": "2026-12-31",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CHF"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 50,
-                                    "maxValue": 120,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CH"
-                            }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CH",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                        }
-                    }
-                }
+                ]
             }
         ]
     }
